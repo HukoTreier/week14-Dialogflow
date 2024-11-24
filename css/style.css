@@ -1,0 +1,16 @@
+* { /* *- kõik elemendid lehel. tühistab vaikimisi sätted */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { /* konteinerist saab vanem */
+    position: relative;
+    height: 100vh; /* kõrgus aknaga proportsioonis kogu aeg */
+}
+
+.chat-container { 
+    position: absolute;  /* arvutab chat konteineri kordinaate lähtudes konteineri asukohast */
+    bottom: 0; /* täiesti all */
+    right: 0; /* täiesti paremal */
+}
